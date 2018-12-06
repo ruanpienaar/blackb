@@ -1,0 +1,12 @@
+{application, blackb,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { blackb_app, []}},
+  {env, []}
+ ]}.
